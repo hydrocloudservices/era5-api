@@ -7,7 +7,7 @@ app = FastAPI()
 @app.get("/salut")
 async def getCity():
     return {
-        "message": "Hey, salut!"
+        "message": "Hey, salut, test!"
     }
 
 if __name__ == "__main__" and os.environ.get("ENVIRONMENT") != "PRODUCTION":
